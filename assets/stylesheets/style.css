@@ -1,0 +1,137 @@
+/* Imports/Fonts */
+@import url("https://fonts.googleapis.com/css?family=Bellefair|Poppins");
+/* About */
+p {
+  font-size: medium; }
+
+.gradient-body {
+  font: 20px 'Poppins', sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+  background: linear-gradient(270deg, #ff405f, #70e2e4);
+  background-size: 400% 400%;
+  -webkit-animation: GradientBoy 8s ease infinite;
+  -moz-animation: GradientBoy 8s ease infinite;
+  -o-animation: GradientBoy 8s ease infinite;
+  animation: GradientBoy 8s ease infinite; }
+
+@-webkit-keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@-moz-keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@-o-keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+@keyframes GradientBoy {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+.header-about {
+  font-family: 'Bellefair', palatino;
+  letter-spacing: 5px; }
+
+.margin {
+  margin-bottom: 45px; }
+
+.body-text p {
+  font-size: 18px; }
+
+.spaced {
+  letter-spacing: 5px; }
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
+.navbar {
+  padding: .2rem 1rem !important;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: .8em; }
+
+.navbar-nav li a {
+  font-family: 'Bellefair', palatino; }
+
+.navbar-nav li a:hover {
+  color: #ff405f !important; }
+
+.link-white {
+  color: #ffffff; }
+
+.btn-clear {
+  background: rgba(0, 0, 0, 0);
+  font-family: 'Bellefair', palatino; }
+
+/* Viewport animations */
+.preanimation {
+  opacity: 0;
+}
+.animate {
+  animation: InBottomAnimation 1s forwards;
+}
+.animate-in-left {
+  animation: InAnimationLeft 1s forwards;
+}
+.animate-in-right {
+  animation: InAnimationRight 1s forwards;
+}
+.animate-away-left {
+  animation: AwayAnimationLeft 1s forwards;
+}
+.animate-away-right {
+  animation: AwayAnimationRight 1s forwards;
+}
+
+@keyframes InBottomAnimation {
+  0% {opacity: 0; transform: translateY(10em)}
+  100% {opacity: 1; transform: translateY(0em)}
+}
+@keyframes InAnimationLeft {
+  0% {opacity: 0; transform: translateX(-10em)}
+  100% {opacity: 1; transform: translateX(0em)}
+}
+@keyframes InAnimationRight {
+  0% {opacity: 0; transform: translateX(10em)}
+  100% {opacity: 1; transform: translateX(0em)}
+}
+@keyframes AwayAnimationLeft {
+  0% {opacity: 1; transform: translateX(0em)}
+  100% {opacity: 0; transform: translateX(-10em)}
+}
+@keyframes AwayAnimationRight {
+  0% {opacity: 1; transform: translateX(0em)}
+  100% {opacity: 0; transform: translateX(10em)}
+}
+
+/* Prom Text */
+.prom-box {
+  opacity: 0;
+  text-align: center;
+  width: 100%;
+}
+.prom-header {
+  opacity: 0;
+  font-size: 5em;
+}
+.prom-text {
+  opacity: 0;
+  font-size: 3em;
+}
