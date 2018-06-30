@@ -1,8 +1,3 @@
-# bella-sigman
+# promposal
 
-About page for bellcomics:
-
-https://door-bell.github.io/bella-sigman/
-
-
-
+Bella's promposal.
